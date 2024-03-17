@@ -7,6 +7,7 @@ import { AssignInvite } from "./_components/AssignInvite";
 import EditorComponent from './_components/EditorComponent';
 import {TicketDetails} from './_components/ticket_details'
 import {BidTicket} from "./_components/bid-ticket"
+import { ShowBid } from "./_components/showbid";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <EditorComponent/> */}
       <TicketDetails/>
       <BidTicket/>
+      <ShowBid/>
     </>
   );
 }
